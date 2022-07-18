@@ -12,6 +12,4 @@ while True:
     if n == num:
         break
 
-print(cnt)   
-    
-
+print(cnt)
