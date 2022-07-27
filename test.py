@@ -1,14 +1,9 @@
-c = int(input())
+n = int(input())
+room = 1
+cnt = 1
 
-for i in range(c):
-    n = list(map(int, input().split()))
-    avg = sum(n[1:]) / n[0]
-    cnt = 0
-    for score in n[1:]:
-         if score > avg:
-            cnt += 1
-    result = cnt / n[0] * 100
-    print(f"{result:.3f}%")       
+while n > room:
+    room = room + (cnt * 6)
+    cnt += 1
 
-
-
+print(cnt)
