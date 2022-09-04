@@ -1,5 +1,4 @@
 # 거의 소수 구하기
-from cmath import sqrt
 import math
 a, b = map(int, input().split())
 li = [0] * (10000001)
